@@ -1,31 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Sandwich Heaven</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
-    <p>Phone:123456778</p>
-    <hr>
-    <form action="mailto:phern7@gmail.com" method="post" enctype="text/plain">
-        <label for="">Your Name</label>
-        <input type="text" name="yourname" value="">
-        <br>
-        <label for="email">your email</label>
-        <input type="email" name="email" value="">
-        <br>
-        <label for="password">password</label>
-        <input type="password" name="password" value="">
-        <br>
-        <label for="message">your message</label>
-        <textarea name="message" id="" cols="30" rows="10"></textarea>
-        <br>
-        <label for="">do you want to eat?</label>
-        <input type="checkbox">
-        <input type="submit">
-    </form>
-</body>
+    <nav class="navbar border-bottom border-dark navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/sandwich.png" alt=""><b>Sandwich Heaven</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href=""><b>Contact</b></a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><b>Pricing</b></a>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><b>Work for us!</b></a>
+                    </li>
+        </ul>            
+    </div>
+    </nav>
 
+    <div class="row">
+        <div class="col-lg-12">
+            <img class="img1" src="images/storefront.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12" style="background-color: #F7F1E5;">
+            <h1 class="welcome"><b>Contact Us!</b></h1>
+            <br>
+            <hr class="hr1">
+            <p class="aboutus">Thank you for considering our catering services for your event! We would love to hear from you and discuss how we can make your occasion unforgettable.</p>
+                <hr class="hr1">
+                <p class="aboutus">Please feel free to contact us with any questions, concerns, or special requests you may have. Our team of experienced professionals is always available to assist you in planning the perfect menu and service for your event.</p>
+        </div>
+        <div class="ccol-lg-6 col-md-6 col-sm-12" style="background-color: #F7F1E5;">
+            <div class="kitchen2">           
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12" style="background-color: #F9E4C8;">
+            <div class="kitchen">        
+            </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-12" style="background-color: #F9E4C8;">
+            <p class="aboutus">You can reach us by phone, email, or by filling out the contact form on our website. We look forward to hearing from you and creating an exceptional catering experience that will leave a lasting impression on you and your guests.</p>
+            <hr class="hr2">
+           <p class="aboutus">Or simply visit us in our state-of-the-art kitchen at the heart of London</p>
+
+        </div>
+    </div>
+
+
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">You can also use our online form:</h2>
+    <!--Section description-->
+
+
+    <div class="row">
+        
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="https://api.form-data.com/f/7jge15tdte3lj50z0l18ch"
+            method="post" >
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Lewisham Way, London SE4 1UT, United Kingdom</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 44 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@sandwichheaven.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+    
+    <div class="space col-lg-12 border-top border-dark" style="background-color: #CDBBA7;">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="footer-copyright">© 2023 Sandwich Heaven.</p>
+
+    </div>
+
+    
+  
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
