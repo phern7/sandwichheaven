@@ -1,0 +1,137 @@
+body {
+        margin: 0px;
+        text-align: center;
+        font-family: 'Montserrat', serif;
+}
+
+.navbar {
+        background-color: #8f8272;
+        padding: 0px 10px 0px 10px;
+}
+
+.nav-link {
+        font-size: 140%;
+        margin-right: 20px;
+}
+
+h2 {
+        font-size: 120%;
+}
+.welcome {
+        padding-top: 20px;
+        color: rgb(69, 60, 60);
+        font-size: 300%;
+}
+ .col-lg-6 {
+        padding: 0px;
+        margin: 0px;
+ }
+
+ .col-md-6 {
+        padding: 0px;
+        margin: 0px;
+ }
+
+ .col-sm-12 {
+        padding: 0px;    
+        margin: 0px;
+ }
+
+ .col-lg-12 {
+        padding: 0px;
+        margin: 0px;
+ }
+
+ .row {
+        padding: 0px;
+        margin: 0px;
+ }
+
+.logo {
+height: 60px;
+width: 60px;
+margin: 0 10px 10px 20px;
+padding: 0px;
+
+}
+
+.navbar-brand {
+        font-family: 'Sacramento', cursive;
+        font-size: 290%;
+        padding: 0px;
+        margin: 0px;
+}
+
+.img1 {
+display: block;
+height: 100%;
+width: 100%;
+}
+
+.bg-cover {
+        width: 100%;
+        height: 100%;
+        background: url("https://cdn.delibusiness.com/2021/04/AdobeStock_258916810-scaled.jpeg") no-repeat center;
+        background-size: cover;
+      }
+
+.bg-cover2 {
+        width: 100%;
+        height: 100%;
+        background: url("https://www.thesun.co.uk/wp-content/uploads/2022/09/people-group-catering-buffet-food-746838098.jpg?strip=all&w=960") no-repeat center;
+        background-size: cover;
+}
+
+.kitchen {
+        width: 100%;
+        height: 100%;
+        background: url("https://www.gannett-cdn.com/-mm-/eb81db50f6adae7db2fcb1f7ee1994630fa43f7f/c=1-0-2304-1301/local/-/media/2018/05/16/Reno/RGJ/636620794152313456-Tips-1-Dirty-Kitchen.jpg") no-repeat center;
+        background-size: cover;
+}
+
+.kitchen2 {
+        width: 100%;
+        height: 100%;
+        background: url("https://www.fodors.com/wp-content/uploads/2019/05/shutterstock_1355033141.jpg") no-repeat center;
+        background-size: cover;
+}
+.hr1 {
+        border: dotted #F9CF93 16px;
+        border-bottom: none;
+        width: 15%;
+    
+    }
+
+    .hr2 {
+        border: dotted #F9CF93 16px;
+        border-bottom: none;
+        width: 15%;
+    
+    }
+    .aboutus {
+        padding: 30px;
+        font-size: 150%;
+        
+    }
+
+    
+.btn {
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: Montserrat;
+        color: #000000;
+        font-size: 20px;
+        background: #E7B10A;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .footer-link {
+        margin: 5px 10px 5px 0px;
+    }
+
+    .space {
+        padding: 10px 0px 2px 0px;
+    }
