@@ -17,41 +17,43 @@ body {
 h2 {
         font-size: 120%;
 }
+
 .welcome {
         padding-top: 20px;
         color: rgb(69, 60, 60);
         font-size: 300%;
 }
- .col-lg-6 {
+
+.col-lg-6 {
         padding: 0px;
         margin: 0px;
- }
+}
 
- .col-md-6 {
+.col-md-6 {
         padding: 0px;
         margin: 0px;
- }
+}
 
- .col-sm-12 {
-        padding: 0px;    
-        margin: 0px;
- }
-
- .col-lg-12 {
+.col-sm-12 {
         padding: 0px;
         margin: 0px;
- }
+}
 
- .row {
+.col-lg-12 {
         padding: 0px;
         margin: 0px;
- }
+}
+
+.row {
+        padding: 0px;
+        margin: 0px;
+}
 
 .logo {
-height: 60px;
-width: 60px;
-margin: 0 10px 10px 20px;
-padding: 0px;
+        height: 60px;
+        width: 60px;
+        margin: 0 10px 10px 20px;
+        padding: 0px;
 
 }
 
@@ -63,9 +65,9 @@ padding: 0px;
 }
 
 .img1 {
-display: block;
-height: 100%;
-width: 100%;
+        display: block;
+        height: 100%;
+        width: 100%;
 }
 
 .bg-cover {
@@ -74,7 +76,7 @@ width: 100%;
         min-height: 200px;
         background: url("https://cdn.delibusiness.com/2021/04/AdobeStock_258916810-scaled.jpeg") no-repeat center;
         background-size: cover;
-      }
+}
 
 .bg-cover2 {
         width: 100%;
@@ -99,26 +101,28 @@ width: 100%;
         background: url("https://www.fodors.com/wp-content/uploads/2019/05/shutterstock_1355033141.jpg") no-repeat center;
         background-size: cover;
 }
+
 .hr1 {
         border: dotted #F9CF93 16px;
         border-bottom: none;
         width: 15%;
-    
-    }
 
-    .hr2 {
+}
+
+.hr2 {
         border: dotted #F9CF93 16px;
         border-bottom: none;
         width: 15%;
-    
-    }
-    .aboutus {
+
+}
+
+.aboutus {
         padding: 30px;
         font-size: 150%;
-        
-    }
 
-    
+}
+
+
 .btn {
         -webkit-border-radius: 8;
         -moz-border-radius: 8;
@@ -130,17 +134,81 @@ width: 100%;
         padding: 10px 20px 10px 20px;
         text-decoration: none;
         margin-top: 10px;
-    }
+}
 
-    .footer-link {
+.footer-link {
         margin: 5px 10px 5px 0px;
-    }
+}
 
-    .space {
+.space {
         padding: 10px 0px 2px 0px;
-    }
+}
 
-    .thankyou {
+.thankyou {
         width: 40%;
         margin: auto;
-    }
+}
+
+section.pricing {
+        background: #007bff;
+        background: linear-gradient(to right, #ffffff, #F7F1E5);
+}
+
+.pricing .card {
+        border: none;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+        margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+}
+
+.pricing .card-price {
+        font-size: 3rem;
+        margin: 0;
+}
+
+.pricing .card-price .period {
+        font-size: 0.8rem;
+}
+
+.pricing ul li {
+        margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+        opacity: 0.7;
+}
+
+.pricing .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        opacity: 0.7;
+        transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+        .pricing .card:hover {
+                margin-top: -.25rem;
+                margin-bottom: .25rem;
+                box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .pricing .card:hover .btn {
+                opacity: 1;
+        }
+}
